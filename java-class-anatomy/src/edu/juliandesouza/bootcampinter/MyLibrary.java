@@ -2,7 +2,7 @@ package edu.juliandesouza.bootcampinter;
 
 public class MyLibrary {
 
-    public static String main(String [] args) {
+    public static void main(String [] args) {
 
         String firstName = "Julian";
         String secondName = "de Souza teste";
@@ -21,7 +21,7 @@ public class MyLibrary {
         System.out.println(fullName);
         System.out.println(" ");
         System.out.println(emails);
-        return fullName;
+        
     }
 
     public static String fullName(String firstName, String secondName) {
