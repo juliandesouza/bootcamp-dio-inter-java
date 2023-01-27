@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Math",
+            "request": "launch",
+            "mainClass": "edu.juliandesouza.bootcampinter.Math",
+            "projectName": "java-class-anatomy_a4c147fb"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyLibrary",
+            "request": "launch",
+            "mainClass": "edu.juliandesouza.bootcampinter.MyLibrary",
+            "projectName": "java-class-anatomy_a4c147fb"
+        }
+    ]
+}
